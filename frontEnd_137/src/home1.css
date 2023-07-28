@@ -1,0 +1,161 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@media screen and (max-width: 576px) {
+  .nav__menu {
+    top: var(--header-height);
+  }
+  .nav__toggle {
+    display: block;
+  }
+  .nav__list {
+    display: none;
+    flex-direction: column;
+  }
+  .nav__item {
+    margin-left: 0;
+    margin-bottom: var(--mb-3);
+  }
+  .nav__link {
+    display: block;
+  }
+  .change-theme {
+    position: initial;
+    margin-left: 0;
+    margin-top: var(--mb-3);
+  }
+  .home__container {
+    height: auto;
+    padding-top: 5rem;
+  }
+  .home__title {
+    font-size: 2.5rem;
+  }
+  .home__subtitle {
+    font-size: 1.75rem;
+  }
+  .home__img {
+    width: 220px;
+  }
+  .about__img,
+  .app__img {
+    width: 240px;
+  }
+  .section {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+  }
+  .menu__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .menu__img {
+    width: 140px;
+  }
+  .menu__content {
+    padding: 1rem;
+  }
+  .services__container,
+  .menu__container {
+    margin-top: var(--mb-4);
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .home__container,
+  .about__container,
+  .app__container {
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 2rem;
+  }
+  .about__data,
+  .about__initial,
+  .app__data,
+  .app__initial,
+  .contact__container,
+  .contact__initial {
+    text-align: center;
+  }
+  .about__img,
+  .app__img {
+    width: 320px;
+    order: initial;
+  }
+  .contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .contact__button {
+    justify-self: center;
+  }
+  .footer__container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .section {
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+  }
+  .nav__menu {
+    position: initial;
+    top: initial;
+    left: initial;
+    width: initial;
+    padding: initial;
+    text-align: initial;
+    background-color: initial;
+    box-shadow: initial;
+    border-radius: initial;
+    z-index: initial;
+  }
+  .nav__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav__item {
+    margin-bottom: 0;
+  }
+  .nav__toggle {
+    display: none;
+  }
+  .change-theme {
+    position: absolute;
+    right: 1rem;
+    top: 1.8rem;
+    margin-top: initial;
+  }
+  .home__container {
+    height: 100vh;
+    justify-items: center;
+    padding-top: initial;
+  }
+  .home__title {
+    font-size: 4rem;
+  }
+  .home__subtitle {
+    font-size: 2.25rem;
+  }
+  .home__img {
+    width: 500px;
+  }
+  .services__container,
+  .menu__container {
+    margin-top: var(--mb-6);
+  }
+  .menu__container {
+    grid-template-columns: repeat(3, 210px);
+    column-gap: 4rem;
+  }
+  .menu__content {
+    padding: 1.5rem;
+  }
+  .menu__img {
+    width: 130px;
+  }
+  .app__store {
+    margin: 0 var(--mb-1) 0 0;
+  }
+}
+

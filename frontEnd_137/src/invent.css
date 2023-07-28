@@ -1,0 +1,52 @@
+  .text-blackm-5 {
+    color: black;
+  }
+
+  .order-2 {
+    order: 2;
+  }
+
+  .order-lg-1 {
+    order: 1;
+  }
+
+  .d-flex {
+    display: flex;
+  }
+
+  .flex-column {
+    flex-direction: column;
+  }
+
+  .align-items-center {
+    align-items: center;
+  }
+
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+
+  .mb-6 {
+    margin-bottom: 2rem;
+  }
+
+  .mx-1 {
+    margin: 0.25rem;
+  }
+
+  .mx-md-7 {
+    margin: 2rem;
+  }
+
+  .mt-4 {
+    margin-top: 1rem;
+  }
+
+  .mb-3 {
+    margin-bottom: 0.75rem;
+  }
+
+  .gap-20 {
+    gap: 20px;
+  }
+
